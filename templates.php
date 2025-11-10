@@ -52,13 +52,13 @@ function inputPage($select)
       <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="/">lengths</a>
+          <a class="nav-link" href="/">Lengths</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/weights">Weights</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/temperatures">temperatures</a>
+          <a class="nav-link" href="/temperatures">Temperatures</a>
         </li>
       </ul>
       </div>
@@ -66,7 +66,7 @@ function inputPage($select)
 		<div class="container-fluid">
 			<form method="post" target="_self">
 				<div class="mb-3">
-          <label for="value">Enter the length to convert</label>
+          <label for="value">Enter the value to convert</label>
 					<input class="form-control" name="value" id="value" required>
 				</div>
 				<div class="mb-3">
@@ -186,13 +186,13 @@ function resultPage($result, $priorPath)
       <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="/">lengths</a>
+          <a class="nav-link" href="/">Lengths</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/weights">Weights</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/temperatures">temperatures</a>
+          <a class="nav-link" href="/temperatures">Temperatures</a>
         </li>
       </ul>
       </div>
